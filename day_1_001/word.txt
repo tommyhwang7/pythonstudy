@@ -1,0 +1,23 @@
+stackless 
+Cpython
+call stack
+스택 오버플로우
+코루틴
+스택
+마이크로쓰레드
+PyPy
+memcpy()
+greenlet
+import
+EVE 온라인
+JIT 컴파일러
+Cython
+Python C API
+ctypes
+네이티브 코드
+SWIG
+CFFI(C Freign Function Interface)
+pybind
+LLVM
+Dropbox Tech Blog - introducing Pyston: an upcoming,
+JIT-based Python implementation
