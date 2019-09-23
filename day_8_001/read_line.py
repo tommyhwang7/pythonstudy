@@ -11,10 +11,6 @@ for line in lines:
     if count > 9:
         break
     print (line.strip())
-    
-'''text = "123456789"
-for c in text:
-    print (c)'''
 
 target_file = open ("first_multi.txt",'w')
 
