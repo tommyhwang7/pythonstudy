@@ -1,4 +1,4 @@
-a = None
+a = ""
 
 if a :
     print ('a')
