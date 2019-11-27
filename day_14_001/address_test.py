@@ -11,7 +11,15 @@ def InputPhoneNum():
     PhoneNum0 = (InputPhoneNum0)
     PhoneList.append(PhoneNum0)
 
-  
+def Serch():
+    InputName0 = input('Name :')
+    Name0 = (InputName0)
+
+    if Name0 in NameList :
+        print (NameList.index(Name0))
+        print (PhoneList[NameList.index(Name0)])
+    else :
+        print ("not found")
 
 def InputSelect():
     for i in range(0,10):
@@ -30,14 +38,25 @@ def InputSelect():
             print (PhoneList)
 
         elif InputSelect0 == ('search'):
-            print ('search')
+            Serch()
 
         elif InputSelect0 == ('del'):
             print ('del')
         
             
-            
+def test():
+    InputName0 = input('Name :')
+    NameList.append(InputName0)
+    assert NameList == [InputName0]
+    InputName0 = input('Name :')
+    NameList.append(InputName0)
+    assert NameList == ['hwang','sang']
+    print ("pass!")
 
+
+    #assert NameList == ['sang']
+    #print ("Pass!")
+    return True
 
 def main():
     InputSelect()
@@ -47,4 +66,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    test()
+        #main()
