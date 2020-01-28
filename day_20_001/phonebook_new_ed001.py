@@ -90,7 +90,7 @@ def store_contact():
 
     file.close()
 
-def test():
+def load_contact():
     '''test case'''
 
     global contact
@@ -115,9 +115,11 @@ def test():
 
 
 def main():
+    load_contact()
     instruction()
     run()
     store_contact()
+    
     #instruction()
     #print (command)
 
@@ -125,6 +127,6 @@ def main():
 
 
 if __name__ == '__main__':
-    #main()
-    test()
+    main()
+    #test()
 
