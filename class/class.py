@@ -1,12 +1,13 @@
 class Calculator:
-    def __init__(self):
-        self.result = 0
+    def __init__(self,num):
+        self.result = num
+        print(self.result)
     def add(self,num):
         self.result += num
         return self.result
     
-cal1 = Calculator()
-cal2 = Calculator()
+cal1 = Calculator(3)
+cal2 = Calculator(5)
 
 #print(cal1.add(3))
 #print(cal1.add(4))
@@ -39,7 +40,8 @@ b= FourCal()
 a.setdata(4,2)
 b.setdata(3,7)
 
-print (a.add())
-print (a.mul())
-print (a.sub())
-print (a.div())
+print (b.add())
+#print (a.add())
+#print (a.mul())
+#print (a.sub())
+#print (a.div())

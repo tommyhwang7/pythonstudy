@@ -13,7 +13,7 @@ def instruction():
     command['search'] = searchContact
     command['p'] = printContact
     command['print'] = printContact
-
+7
 
 def createContact():
     global contact
